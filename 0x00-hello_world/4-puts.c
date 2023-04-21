@@ -1,7 +1,7 @@
 #include <stdio.h>
-/**
+/*
  * main -initializes code
- n
+ *
  * return -shows a successful program
  */
 int main (void)
