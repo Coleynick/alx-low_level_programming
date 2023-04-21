@@ -1,6 +1,6 @@
 #include <stdio.h>
-/*
- * main - Initializes code
+/**
+ * main - Starting point of the program
  *
  * Return - It works
  */
