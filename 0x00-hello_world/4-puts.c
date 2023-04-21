@@ -1,5 +1,7 @@
 #include <stdio.h>
 /*
+ * c programming
+ *
  * main -initializes code
  */
 int main (void)
