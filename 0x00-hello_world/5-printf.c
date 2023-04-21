@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-  *  Main - To initialize the program
+  *Main - To initialize the program
   *return integer
   */
 int main (void)
