@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- *  Main - To initialize the program
- *return integer
- */
+  *  Main - To initialize the program
+  *return integer
+  */
 int main (void)
 { 
 	printf("with proper grammar, but the outcome is a piece of art,\n");
