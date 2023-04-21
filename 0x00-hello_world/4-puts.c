@@ -1,8 +1,8 @@
 #include <stdio.h>
 /*
- * c programming
+ * main - Initializes code
  *
- * main -initializes code
+ * Return - It works
  */
 int main (void)
 {
