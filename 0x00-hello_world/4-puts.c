@@ -2,7 +2,7 @@
 /**
  * main - Starting point of the program
  *
- * Return - It works
+ * Return - It checks if the program finished with no errors
  */
 int main(void)
 {
