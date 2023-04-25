@@ -1,2 +1,2 @@
 #!/bin/bash
-CFILE=$CFILE; main=$(main -s .c $CFILE); gcc -S -masm=intel $CFILE -o $main.s
+CFILE=$CFILE; main=$(basename -s .c $CFILE); gcc -S -masm=intel $CFILE -o $BASENAME.s
