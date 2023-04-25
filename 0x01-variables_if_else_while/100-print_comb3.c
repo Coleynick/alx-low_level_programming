@@ -12,15 +12,15 @@ int main(void)
 {
 int digit1 = 0;
 int digit2 = 0;
-while (digit1 <= 09)
+while (digit1 <= 9)
 {
-while (digit2 <= 09)
+while (digit2 <= 9)
 {
 if (!(digit1 > digit2) || digit1 == digit2)
 {
 putchar(digit1);
 putchar(digit2);
-if (digit1 == 08 && digit2 == 09)
+if (digit1 == 8 && digit2 == 9)
 {
 putchar('\n');
 }
