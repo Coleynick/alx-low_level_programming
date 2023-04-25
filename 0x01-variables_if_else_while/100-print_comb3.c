@@ -22,7 +22,7 @@ printf("%d", digit1);
 printf("%d", digit2);
 if (digit1 == 8 && digit2 == 9)
 {
-printf(int '\n');
+printf(int'\n');
 }
 else
 {
