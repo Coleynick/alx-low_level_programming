@@ -1,23 +1,16 @@
 #include <stdio.h>
-
 /**
- * main - Entry point  of the program
+ * print_alphabet - Prints lowercase alphabets
  *
- * Return: Always 0
- */
-void print_alphabet(char alpha);
-int main(void)
-{
-	print_alphabet('a');
-	return (0);
-}
-/**
- * print_alphabet - Function that prints lowercase alphabets
+ * alpha - Variable for the lowercase alphabet
  *
- * @alpha - Variable for the lowercase alphabet
+ * Description - This function prints a lowercase alphabet followed by a new line character.
+ *
+ * Return: Always 0 (succesful)
  */
 void print_alphabet(char alpha)
 {
-	putchar('alpha');
-	putcharr('\n\);
+	alpha = 'c';
+	putchar(alpha);
+	putchar('\n');
 }
