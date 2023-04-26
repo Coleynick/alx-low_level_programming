@@ -4,10 +4,6 @@
  * main - Entry point  of the program
  *
  * Return: Always 0
- *
- * print_alphabet - Function that prints lowercase alphabets
- *
- *@alpha - Variable for the lowercase alphabet
  */
 void print_alphabet(char alpha);
 int main(void)
