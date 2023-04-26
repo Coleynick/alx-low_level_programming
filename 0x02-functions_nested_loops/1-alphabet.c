@@ -2,9 +2,9 @@
 /**
  * print_alphabet - Prints lowercase alphabets
  *
- * alpha - Variable for the lowercase alphabet
+ * @alpha: Variable for the lowercase alphabet
  *
- * Description - This function prints a lowercase alphabet followed by a new line character.
+ * Description: This prints lowercase alphabets using alpha.
  *
  * Return: Always 0 (succesful)
  */
