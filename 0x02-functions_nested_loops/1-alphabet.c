@@ -7,7 +7,7 @@
  *
  * print_alphabet - Function that prints lowercase alphabets
  *
- * alpha - Variable for the lowercase alphabet
+ *@alpha - Variable for the lowercase alphabet
  */
 void print_alphabet(char alpha);
 int main(void)
@@ -18,9 +18,10 @@ int main(void)
 /**
  * print_alphabet - Function that prints lowercase alphabets
  *
- * alpha - Variable for the lowercase alphabet
+ * @alpha - Variable for the lowercase alphabet
  */
 void print_alphabet(char alpha)
 {
-	putchar('alpha\n');
+	putchar('alpha');
+	putcharr('\n\);
 }
