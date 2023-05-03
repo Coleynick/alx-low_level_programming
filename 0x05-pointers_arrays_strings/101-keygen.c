@@ -13,6 +13,7 @@ int main(void)
     char *password = malloc(password_length + 1);
 
     srand(time(NULL));
+
     int i;
 
     for (i = 0; i < password_length; i++) {
