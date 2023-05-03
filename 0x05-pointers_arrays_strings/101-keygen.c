@@ -9,8 +9,8 @@
  */
 int main(void)
 {
-    int password_length = 10;
-    char password[password_length + 1];
+    const int password_length = 10;
+    char *password = malloc(password_length + 1);
 
     srand(time(NULL));
 
@@ -28,6 +28,8 @@ int main(void)
     password[password_length] = '\0';
 
     printf("%s\n", password);
+
+    free(password);
 
     return (0);
 }
