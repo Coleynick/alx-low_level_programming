@@ -9,26 +9,25 @@
  */
 int main(void)
 {
-    int password_length = 10; // Set the desired password length
-    char password[password_length + 1]; // Allocate space for password string
+    int password_length = 10;
+    char password[password_length + 1];
 
-    srand(time(NULL)); // Seed the random number generator with the current time
+    srand(time(NULL));
 
-    // Generate random password characters and add them to the password string
     for (int i = 0; i < password_length; i++) {
-        int ascii_value = rand() % 62; // Generate a random number between 0 and 61
+        int ascii_value = rand() % 62;
         if (ascii_value < 10) {
-            password[i] = '0' + ascii_value; // If the random number is between 0 and 9, add a digit character
+            password[i] = '0' + ascii_value;
         } else if (ascii_value < 36) {
-            password[i] = 'A' + ascii_value - 10; // If the random number is between 10 and 35, add an uppercase letter
+            password[i] = 'A' + ascii_value - 10;
         } else {
-            password[i] = 'a' + ascii_value - 36; // If the random number is between 36 and 61, add a lowercase letter
+            password[i] = 'a' + ascii_value - 36;
         }
     }
 
-    password[password_length] = '\0'; // Add null terminator to password string
+    password[password_length] = '\0';
 
-    printf("%s\n", password); // Output the password
+    printf("%s\n", password);
 
     return (0);
 }
