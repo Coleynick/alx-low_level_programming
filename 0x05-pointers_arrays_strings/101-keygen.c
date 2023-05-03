@@ -13,8 +13,9 @@ int main(void)
     char *password = malloc(password_length + 1);
 
     srand(time(NULL));
+    int i;
 
-    for (int i = 0; i < password_length; i++) {
+    for (i = 0; i < password_length; i++) {
         int ascii_value = rand() % 62;
         if (ascii_value < 10) {
             password[i] = '0' + ascii_value;
