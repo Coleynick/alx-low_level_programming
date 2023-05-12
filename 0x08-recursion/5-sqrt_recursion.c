@@ -1,6 +1,7 @@
 /**
  * _sqrt_recursion - Finds the square root
  * @n: the number to find the root of
+ * @a: the current number being checked as a possible square root
  * Return: The square root or -1 if none
  */
 int _sqrt_helper(int n, int a);
