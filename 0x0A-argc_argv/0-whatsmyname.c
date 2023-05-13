@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 /**
  * main - Prints program name
  * @argv: Array of arguments
@@ -7,7 +8,7 @@
  */
 int main(int argc, char *argv[])
 {
+if (argc > 0)
 printf("%s\n", argv[0]);
-printf("Num of arguments: %d\n", argc);
 return (0);
 }
