@@ -14,9 +14,12 @@ if (argc != 3)
 printf("Error\n");
 return (1);
 }
+else
+{
 num1 = atoi(argv[0]);
 num2 = atoi(argv[1]);
 result = num1 * num2;
 printf("%d\n", result);
+}
 return (0);
 }
