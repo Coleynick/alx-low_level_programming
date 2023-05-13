@@ -7,6 +7,7 @@
  */
 int main(int argc, char *argv[])
 {
-printf("%s is %d\n", argv[0], argc);
+if (*argv[0] >= '0')
+printf("%d\n", argc);
 return (0);
 }
