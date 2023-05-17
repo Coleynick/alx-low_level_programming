@@ -1,7 +1,7 @@
 /**
  * _sqrt_recursion - Finds the square root
  * @n: the number to find the root of
- * @a: the current number being checked as a possible square root
+ * @a: The current number being checked as a possible square root
  * Return: The square root or -1 if none
  */
 int _sqrt_helper(int n, int a);
@@ -16,6 +16,13 @@ else
 return (_sqrt_helper(n, 1));
 }
 }
+
+/**
+ * _sqrt_helper - Recursive helper function to calculate the square root
+ * @n: The number to find the square root of
+ * @a: The current number being checked as a possible square root
+ * Return: The square root of 'n' or -1 if none
+ */
 int _sqrt_helper(int n, int a)
 {
 if (a * a > n)
