@@ -23,7 +23,7 @@ void init_dog(struct dog *d, char *name, float age, char *owner);
 void print_dog(struct dog *d);
 
 /**
- * struct dog - Represents information about a dog
+ * struct my_dog - Represents information about a dog
  * @name: The name of the dog
  * @age: The age of the dog
  * @owner: The name of the owner of the dog
