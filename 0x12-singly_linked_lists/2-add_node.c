@@ -8,7 +8,7 @@
 * @head: Double pointer to the head of the list_t list.
 * @str: The string to be duplicated and added to the list.
 *
-* Return: Address of added element, or NULL if it fails.
+* Return: New node address or NULL if it fails.
 */
 list_t *add_node(list_t **head, const char *str)
 {
