@@ -1,3 +1,5 @@
+#include "lists.h"
+#include <stdio.h>
 void beforeMain(void) __attribute__((constructor));
 
 /**
