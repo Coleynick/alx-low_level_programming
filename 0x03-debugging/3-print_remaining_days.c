@@ -17,7 +17,7 @@ if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0)
 if (month > 2 || (month == 2 && day == 29))
 {
 printf("Day of the year: %d\n", day + 1);
-printf("Remaining days: %d\n", 366 - (day + 1));
+printf("Remaining days: %d\n", 366 - day - 1);
 }
 else
 {
