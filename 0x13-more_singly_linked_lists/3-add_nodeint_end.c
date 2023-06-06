@@ -1,4 +1,6 @@
 #include "lists.h"
+#include <stdlib.h>
+#include <stdio.h>
 
 /**
 * add_nodeint_end - Joins a new node to the end of a listint_t list
