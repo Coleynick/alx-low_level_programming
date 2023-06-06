@@ -34,7 +34,7 @@ return (newNode);
 }
 
 temp = *head;
-for (nc_count = 0; nc_count < idx - 1 && temp != NULL; nc_count ++)
+for (nc_count = 0; nc_count < idx - 1 && temp != NULL; nc_count++)
 {
 temp = temp->next;
 }
