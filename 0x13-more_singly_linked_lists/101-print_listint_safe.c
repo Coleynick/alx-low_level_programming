@@ -15,26 +15,23 @@ const listint_t *nextNode = head;
 const listint_t *nextTwoNode = head;
 size_t nc_count = 0;
 
-while (nextNode && nextTwoNode && nextTwoNode->next)
+while (nextTwoNode != NULL && nextTwoNode->next != NULL)
 {
-printf("[%p] %d\n", (void *) nextNode, nextNode->n);
+printf("[%p] %d\n", (void *)nextNode, nextNode->n);
+nc_count++;
+
 nextNode = nextNode->next;
 nextTwoNode = nextTwoNode->next->next;
 
 if (nextNode == nextTwoNode)
 {
-printf("-> [%p] %d\n", (void *) nextNode, nextNode->n);
+printf("-> [%p] %d\n", (void *)nextNode, nextNode->n);
 exit(98);
 }
-
-nc_count++;
 }
 
-if (nextNode)
-{
-printf("[%p] %d\n", (void *) nextNode, nextNode->n);
+printf("[%p] %d\n", (void *)nextNode, nextNode->n);
 nc_count++;
-}
 
 return (nc_count);
 }
