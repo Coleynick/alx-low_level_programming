@@ -9,7 +9,6 @@
 size_t free_listint_safe(listint_t **h)
 {
 size_t nc_count = 0;
-int size;
 listint_t *prs, *next;
 
 if (h == NULL || *h == NULL)
@@ -27,6 +26,5 @@ prs = next;
 }
 
 *h = NULL;
-size = nc_count;
-return (size);
+return (nc_count);
 }
