@@ -11,5 +11,5 @@ unsigned long int s = n;
 if (s > 1)
 print_binary(s >> 1);
 
-putchar((s & 1) + '0');
+_putchar((s & 1) + '0');
 }
