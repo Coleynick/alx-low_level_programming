@@ -23,7 +23,7 @@ return (-1);
 
 if (text_content != NULL)
 {
-for (k = 0; text_content[i] != '\0'; k++)
+for (k = 0; text_content[k] != '\0'; k++)
 ;
 
 fileChars_Written = write(i_fille, text_content, k);
