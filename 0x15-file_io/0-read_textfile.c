@@ -17,20 +17,22 @@ ssize_t fileChars_Read;
 ssize_t fileChars_Written;
 int i_fille;
 
-i_fille = open(filename, O_RDONLY);
-if (i_fille == NULL ||  filename == NULL)
+if (filename == NULL)
 return (0);
 
-tempData  = (char *)malloc(letters + 1);
+i_fille = open(filename, O_RDONLY);
+if (i_fille == -1)
+return (0);
+
+tempData  = malloc(letters + 1);
 if (tempData == NULL)
 {
 close(i_fille);
 return (0);
 }
 
-fileChars_Read = read(tempData, sizeof(char), letters, i_fille);
-
-fileChars_Written = write(tempData, sizeof(char), fileChars_Read, stdout);
+fileChars_Read = read(i_fille, tempData, letters);
+fileChars_Written = write(STDOUT_FILENO, tempData, fileChars_Read);
 if (fileChars_Written != fileChars_Read || fileChars_Read < 0)
 {
 free(tempData);
